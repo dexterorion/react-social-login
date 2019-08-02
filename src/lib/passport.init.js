@@ -5,7 +5,7 @@ const { Strategy: FacebookStrategy } = require('passport-facebook')
 const { Strategy: GithubStrategy} = require('passport-github')
 const { 
   TWITTER_CONFIG, GOOGLE_CONFIG, FACEBOOK_CONFIG, GITHUB_CONFIG
-} = require('../config')
+} = require('../server.config')
 
 module.exports = () => {  
 
